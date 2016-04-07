@@ -1,4 +1,4 @@
-//
+
 //  ViewController.swift
 //  MyNewCar
 //
@@ -78,18 +78,10 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         dispatch_async(backgroundQueue, {
             print("This is run on the background queue")
             
-            
         })
 
-        
-        
-        
         self.getImageFormUrl()
-        // changing navigation bar colour
-         //navigationController!.navigationBar.barTintColor = UIColor.redColor()
-
-        // Do any additional setup after loading the view, typically from a nib.
-
+        
         // add image to array
         carIamgeArray = ["HotDeal-Car1.jpg", "HotDeal-Car2.jpg","HotDeal-Car3.jpg","HotDeal-Car4.jpg","HotDeal-Car5.jpg","HotDeal-Car6.jpg"]
         
@@ -101,11 +93,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         carLogoImage = ["Brands-Chervolet.png", "Brands-Datsun.png","Brands-Ford.png","Brands-Honda.png","Brands-hyundai.png","Brands-mahindra.png","Brands-nissan.png","Brands-renault.png","Brands-skoda.png","Brands-suzuki.png",]
         
         carLogoName = ["Chervolet", "Datsun", "Ford", "Honda", "Hyndai", "Mahindra", "Nissan", "Renault", "Skoda", "Suzuki"]
-        
-        
-        //sliderImages = ["1.jpg","2.jpg","3.jpg","4.jpg"]
-        
-        //sliderImages.append(<#T##newElement: Element##Element#>)
+
         
         
         carTypeName = ["Hatch Back", "Sedan","Van-Mini-van","SUV-MUV","Coupe","Convertible","Station Wagan"]
@@ -113,35 +101,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         carTypeImage = ["CarType-HatchBack.png","CarType-Sedan.png","CarType-Van.png","CarType-SUV-MUV.png","CarType-Coupe.png","CarType-Convertible.png","CarType-Station.png"]
         
         
-        // For page View COntroller
         
-        /*
-        self.pageViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PageViewController") as! UIPageViewController
-        
-        self.pageViewController.dataSource = self
-        
-        
-        let startVC = self.viewControllerAtIndex(0) as ImageSlideViewController
-        
-        let viewControllers = NSArray(object: startVC)
-        
-        self.pageViewController.setViewControllers(viewControllers as [AnyObject] as? [UIViewController], direction: .Forward, animated: true, completion: nil)
-        
-        
-        
-        self.pageViewController.view.frame = CGRectMake(0, 70, self.view.frame.width, self.view.frame.size.height/2 - 200)
-        
-        
-        //self.addChildViewController(self.pageViewController)
-        
-        self.view.addSubview(self.pageViewController.view)
-        
-        self.pageViewController.didMoveToParentViewController(self)
-        
-        
- 
-        */
-    
         // For Side bar
         
         if self.revealViewController() != nil
@@ -158,13 +118,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
         rangeSlider2.trackHighlightTintColor = UIColor.redColor()
         view.addSubview(rangeSlider1)
-        
-        
-        
-        //self.hotDealCarCollectionView.hidden = true
-        
-       //getImageFormUrl()
-        
         
     }
     
@@ -267,6 +220,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     func viewControllerAtIndex(index: Int) -> ImageSlideViewController
     {
+        print("A3")
         if ((self.sliderImages.count == 0) || (index >= self.sliderImages.count))
         {
             
@@ -399,9 +353,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             // set image
             carLogoCell.carLogoImageView.image = UIImage(named: carLogoImage[indexPath.row])
             
-            // set Logo name
-            print("In Logo")
-            
             carLogoCell.carNameLabel.text = carLogoName[indexPath.row]
             
             return carLogoCell
@@ -463,6 +414,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     func displayImageSlider(images : NSMutableArray)
     {
+        
         for image in images
         {
             let imageDictionary = image as! NSDictionary
@@ -473,9 +425,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             
             print("CompletePath",completePath )
             
-            print("TestImage", testImage)
-            
             sliderImages.append(completePath)
+        
             
         }
         
@@ -527,6 +478,9 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     // Function For ImageSLider and PageViewCOntroller
     func instaceImageSlider()
     {
+        
+        print("A2")
+        
         self.pageViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PageViewController") as! UIPageViewController
         
         self.pageViewController.dataSource = self
@@ -552,6 +506,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         dispatch_async(dispatch_get_main_queue())
         { [unowned self] in
             
+            print("here transfer to main Thread")
         }
 
     }

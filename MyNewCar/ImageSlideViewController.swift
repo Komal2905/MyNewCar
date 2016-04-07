@@ -1,4 +1,4 @@
-//
+//not working
 //  ImageSlideViewController.swift
 //  MyNewCar
 //
@@ -20,10 +20,24 @@ class ImageSlideViewController: UIViewController {
     {
         super.viewDidLoad()
         
-         self.slidingImage.image = UIImage(named: imageFile)
-
-        // Do any additional setup after loading the view.
-    }
+        let url = NSURL(string: imageFile)
+            
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0))
+        {
+                
+            print(url)
+            let data = NSData(contentsOfURL: url!) //make sure your image in this url does exist, otherwise unwrap in a if let check
+                
+            print("Is Converted data" , data)
+                
+            self.slidingImage.image = UIImage(data: data!)
+                
+            dispatch_async(dispatch_get_main_queue(), {
+                });
+            }
+            //self.slidingImage.image = UIImage(named: imageFile)
+            
+        }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

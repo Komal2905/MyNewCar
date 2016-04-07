@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DE380C8345BDFB2CF60F616E7F4E168A868B7D1F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DE380C8345BDFB2CF60F616E7F4E168A868B7D1F" : 0,
+    "2040987F33B390E948BF2932D6665B7091FE1E61" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "34B78045-4A55-4567-A9C6-95AADB106D1A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DE380C8345BDFB2CF60F616E7F4E168A868B7D1F" : "MyNewCar\/",
+    "2040987F33B390E948BF2932D6665B7091FE1E61" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MyNewCar",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MyNewCar.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Komal2905\/MyNewCar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2040987F33B390E948BF2932D6665B7091FE1E61"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Komal2905\/MyNewCar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DE380C8345BDFB2CF60F616E7F4E168A868B7D1F"
+    }
+  ]
+}

@@ -499,6 +499,9 @@
                                 <rect key="frame" x="57" y="40" width="27" height="25"/>
                                 <state key="normal" backgroundImage="SideBarSearch.png"/>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EMl-pi-1Fc">
+                                <rect key="frame" x="67" y="220" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -511,6 +514,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="searchDisplayController" destination="vMr-d4-AwT" id="kzC-Ag-0od"/>
+                        <outlet property="testingUrlImage" destination="EMl-pi-1Fc" id="NDG-Yy-i2i"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XeY-fb-ITi" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -538,7 +542,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cn7-VI-EYq">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cn7-VI-EYq">
                                 <rect key="frame" x="6" y="1" width="308" height="54"/>
                             </imageView>
                         </subviews>
@@ -803,7 +807,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1.jpg" width="1024" height="328"/>
         <image name="SideBarSearch.png" width="100" height="100"/>
         <image name="backImageOnSideBar.jpg" width="284" height="177"/>
         <image name="defaultProfilePic.jpg" width="224" height="224"/>

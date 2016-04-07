@@ -14,6 +14,7 @@ class CarSearchViewController: UIViewController, UISearchResultsUpdating, UISear
     
     var searchController: UISearchController!
     
+    @IBOutlet weak var testingUrlImage: UIImageView!
     
     var carLogoImage = ["Brands-Chervolet.png", "Brands-Datsun.png","Brands-Ford.png","Brands-Honda.png","Brands-hyundai.png","Brands-mahindra.png","Brands-nissan.png","Brands-renault.png","Brands-skoda.png","Brands-suzuki.png",]
     
@@ -63,7 +64,7 @@ class CarSearchViewController: UIViewController, UISearchResultsUpdating, UISear
     {
         super.viewDidLoad()
         configureSearchController()
-
+        testingUrlImage.image = UIImage(named: "http://images.mynewcar.in/uploads/slider/1024x328-vw-mumbai20160404114405.jpg")
         // Do any additional setup after loading the view.
     }
 
