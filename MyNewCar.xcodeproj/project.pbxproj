@@ -7,6 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99766B811CB231FA00046893 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99766B801CB231FA00046893 /* SWRevealViewController.m */; };
+		99766B821CB231FA00046893 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99766B801CB231FA00046893 /* SWRevealViewController.m */; };
+		99766B831CB231FA00046893 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99766B801CB231FA00046893 /* SWRevealViewController.m */; };
+		99766B891CB2381100046893 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766B881CB2381100046893 /* menu.png */; };
+		99766B8A1CB2381100046893 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766B881CB2381100046893 /* menu.png */; };
+		99766B8B1CB2381100046893 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766B881CB2381100046893 /* menu.png */; };
+		99766B951CB23F5C00046893 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99766B941CB23F5C00046893 /* MenuViewController.swift */; };
+		99766B961CB23F5C00046893 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99766B941CB23F5C00046893 /* MenuViewController.swift */; };
+		99766B971CB23F5C00046893 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99766B941CB23F5C00046893 /* MenuViewController.swift */; };
+		99766B991CB2425400046893 /* backImageOnSideBar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99766B981CB2425400046893 /* backImageOnSideBar.jpg */; };
+		99766B9A1CB2425400046893 /* backImageOnSideBar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99766B981CB2425400046893 /* backImageOnSideBar.jpg */; };
+		99766B9B1CB2425400046893 /* backImageOnSideBar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99766B981CB2425400046893 /* backImageOnSideBar.jpg */; };
+		99766B9D1CB244EE00046893 /* defaultProfilePic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99766B9C1CB244EE00046893 /* defaultProfilePic.jpg */; };
+		99766B9E1CB244EE00046893 /* defaultProfilePic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99766B9C1CB244EE00046893 /* defaultProfilePic.jpg */; };
+		99766B9F1CB244EE00046893 /* defaultProfilePic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99766B9C1CB244EE00046893 /* defaultProfilePic.jpg */; };
+		99766BBE1CB24EDC00046893 /* SideBarLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BA71CB24EDC00046893 /* SideBarLogin.png */; };
+		99766BBF1CB24EDC00046893 /* SideBarLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BA71CB24EDC00046893 /* SideBarLogin.png */; };
+		99766BC01CB24EDC00046893 /* SideBarLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BA71CB24EDC00046893 /* SideBarLogin.png */; };
+		99766BC11CB24EDC00046893 /* SideBaruser.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BA81CB24EDC00046893 /* SideBaruser.png */; };
+		99766BC21CB24EDC00046893 /* SideBaruser.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BA81CB24EDC00046893 /* SideBaruser.png */; };
+		99766BC31CB24EDC00046893 /* SideBaruser.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BA81CB24EDC00046893 /* SideBaruser.png */; };
+		99766BC71CB2510300046893 /* SideBarHome.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BC41CB2510300046893 /* SideBarHome.png */; };
+		99766BC81CB2510300046893 /* SideBarHome.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BC41CB2510300046893 /* SideBarHome.png */; };
+		99766BC91CB2510300046893 /* SideBarHome.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BC41CB2510300046893 /* SideBarHome.png */; };
+		99766BCA1CB2510300046893 /* SideBarHotDeal.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BC51CB2510300046893 /* SideBarHotDeal.png */; };
+		99766BCB1CB2510300046893 /* SideBarHotDeal.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BC51CB2510300046893 /* SideBarHotDeal.png */; };
+		99766BCC1CB2510300046893 /* SideBarHotDeal.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BC51CB2510300046893 /* SideBarHotDeal.png */; };
+		99766BCD1CB2510300046893 /* SideBarSearch.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BC61CB2510300046893 /* SideBarSearch.png */; };
+		99766BCE1CB2510300046893 /* SideBarSearch.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BC61CB2510300046893 /* SideBarSearch.png */; };
+		99766BCF1CB2510300046893 /* SideBarSearch.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BC61CB2510300046893 /* SideBarSearch.png */; };
+		99766BD61CB26A5900046893 /* SideBarCompareCar.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BD41CB26A5900046893 /* SideBarCompareCar.png */; };
+		99766BD71CB26A5900046893 /* SideBarCompareCar.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BD41CB26A5900046893 /* SideBarCompareCar.png */; };
+		99766BD81CB26A5900046893 /* SideBarCompareCar.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BD41CB26A5900046893 /* SideBarCompareCar.png */; };
+		99766BD91CB26A5900046893 /* SideBarContactUs.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BD51CB26A5900046893 /* SideBarContactUs.png */; };
+		99766BDA1CB26A5900046893 /* SideBarContactUs.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BD51CB26A5900046893 /* SideBarContactUs.png */; };
+		99766BDB1CB26A5900046893 /* SideBarContactUs.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BD51CB26A5900046893 /* SideBarContactUs.png */; };
+		99766BDF1CB26BAE00046893 /* SideBarBookATestDrive.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BDC1CB26BAE00046893 /* SideBarBookATestDrive.png */; };
+		99766BE01CB26BAE00046893 /* SideBarBookATestDrive.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BDC1CB26BAE00046893 /* SideBarBookATestDrive.png */; };
+		99766BE11CB26BAE00046893 /* SideBarBookATestDrive.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BDC1CB26BAE00046893 /* SideBarBookATestDrive.png */; };
+		99766BE21CB26BAE00046893 /* SideBarBrands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99766BDD1CB26BAE00046893 /* SideBarBrands.jpg */; };
+		99766BE31CB26BAE00046893 /* SideBarBrands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99766BDD1CB26BAE00046893 /* SideBarBrands.jpg */; };
+		99766BE41CB26BAE00046893 /* SideBarBrands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99766BDD1CB26BAE00046893 /* SideBarBrands.jpg */; };
+		99766BE51CB26BAE00046893 /* SideBarCarLease.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BDE1CB26BAE00046893 /* SideBarCarLease.png */; };
+		99766BE61CB26BAE00046893 /* SideBarCarLease.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BDE1CB26BAE00046893 /* SideBarCarLease.png */; };
+		99766BE71CB26BAE00046893 /* SideBarCarLease.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BDE1CB26BAE00046893 /* SideBarCarLease.png */; };
+		99766BE91CB26D4700046893 /* SideBarNews.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BE81CB26D4700046893 /* SideBarNews.png */; };
+		99766BEA1CB26D4700046893 /* SideBarNews.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BE81CB26D4700046893 /* SideBarNews.png */; };
+		99766BEB1CB26D4700046893 /* SideBarNews.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BE81CB26D4700046893 /* SideBarNews.png */; };
+		99766BED1CB26F7100046893 /* SideBarLogout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99766BEC1CB26F7100046893 /* SideBarLogout.jpg */; };
+		99766BEE1CB26F7100046893 /* SideBarLogout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99766BEC1CB26F7100046893 /* SideBarLogout.jpg */; };
+		99766BEF1CB26F7100046893 /* SideBarLogout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99766BEC1CB26F7100046893 /* SideBarLogout.jpg */; };
+		99766BF11CB2712500046893 /* Whyus.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BF01CB2712500046893 /* Whyus.png */; };
+		99766BF21CB2712500046893 /* Whyus.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BF01CB2712500046893 /* Whyus.png */; };
+		99766BF31CB2712500046893 /* Whyus.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BF01CB2712500046893 /* Whyus.png */; };
+		99766BF51CB2716B00046893 /* SideProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BF41CB2716B00046893 /* SideProfile.png */; };
+		99766BF61CB2716B00046893 /* SideProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BF41CB2716B00046893 /* SideProfile.png */; };
+		99766BF71CB2716B00046893 /* SideProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BF41CB2716B00046893 /* SideProfile.png */; };
+		99766BFD1CB271B900046893 /* SideSetting.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BFC1CB271B900046893 /* SideSetting.png */; };
+		99766BFE1CB271B900046893 /* SideSetting.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BFC1CB271B900046893 /* SideSetting.png */; };
+		99766BFF1CB271B900046893 /* SideSetting.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766BFC1CB271B900046893 /* SideSetting.png */; };
+		99766C011CB2729000046893 /* sideAboutUs.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766C001CB2729000046893 /* sideAboutUs.png */; };
+		99766C021CB2729000046893 /* sideAboutUs.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766C001CB2729000046893 /* sideAboutUs.png */; };
+		99766C031CB2729000046893 /* sideAboutUs.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766C001CB2729000046893 /* sideAboutUs.png */; };
+		99766C051CB272F700046893 /* Sidenews.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766C041CB272F700046893 /* Sidenews.png */; };
+		99766C061CB272F700046893 /* Sidenews.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766C041CB272F700046893 /* Sidenews.png */; };
+		99766C071CB272F700046893 /* Sidenews.png in Resources */ = {isa = PBXBuildFile; fileRef = 99766C041CB272F700046893 /* Sidenews.png */; };
+		99766C091CB2789A00046893 /* SideBarOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99766C081CB2789A00046893 /* SideBarOptionCell.swift */; };
+		99766C0A1CB2789A00046893 /* SideBarOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99766C081CB2789A00046893 /* SideBarOptionCell.swift */; };
+		99766C0B1CB2789A00046893 /* SideBarOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99766C081CB2789A00046893 /* SideBarOptionCell.swift */; };
+		99766C0D1CB27C7D00046893 /* CarSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99766C0C1CB27C7D00046893 /* CarSearchViewController.swift */; };
+		99766C0E1CB27C7D00046893 /* CarSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99766C0C1CB27C7D00046893 /* CarSearchViewController.swift */; };
+		99766C0F1CB27C7D00046893 /* CarSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99766C0C1CB27C7D00046893 /* CarSearchViewController.swift */; };
+		99766C111CB2948700046893 /* CarTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99766C101CB2948700046893 /* CarTypeCollectionViewCell.swift */; };
+		99766C121CB2948700046893 /* CarTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99766C101CB2948700046893 /* CarTypeCollectionViewCell.swift */; };
+		99766C131CB2948700046893 /* CarTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99766C101CB2948700046893 /* CarTypeCollectionViewCell.swift */; };
+		99E7931F1CAFE1CC00A8B004 /* last1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99E7931C1CAFE1CC00A8B004 /* last1.jpg */; };
+		99E793201CAFE1CC00A8B004 /* last2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99E7931D1CAFE1CC00A8B004 /* last2.jpg */; };
+		99E793211CAFE1CC00A8B004 /* last3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99E7931E1CAFE1CC00A8B004 /* last3.jpg */; };
+		99EA7E831CB39591000F7FE9 /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EA7E821CB39591000F7FE9 /* RangeSlider.swift */; };
+		99EA7E851CB39ED5000F7FE9 /* TestingRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EA7E841CB39ED5000F7FE9 /* TestingRange.swift */; };
+		99EA7E891CB3BF5F000F7FE9 /* BookTestDriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EA7E881CB3BF5F000F7FE9 /* BookTestDriveViewController.swift */; };
+		99EA7E8B1CB3D23D000F7FE9 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EA7E8A1CB3D23C000F7FE9 /* PopUpViewController.swift */; };
+		99FDCD1D1CAF800700F40879 /* hamburger-large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FDCD1C1CAF800700F40879 /* hamburger-large.jpg */; };
+		99FDCD1E1CAF800700F40879 /* hamburger-large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FDCD1C1CAF800700F40879 /* hamburger-large.jpg */; };
+		99FDCD1F1CAF800700F40879 /* hamburger-large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FDCD1C1CAF800700F40879 /* hamburger-large.jpg */; };
+		99FDCD211CAF84EF00F40879 /* HotDealCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FDCD201CAF84EF00F40879 /* HotDealCollectionViewCell.swift */; };
+		99FDCD221CAF84EF00F40879 /* HotDealCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FDCD201CAF84EF00F40879 /* HotDealCollectionViewCell.swift */; };
+		99FDCD231CAF84EF00F40879 /* HotDealCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FDCD201CAF84EF00F40879 /* HotDealCollectionViewCell.swift */; };
+		99FDCD251CAFABBD00F40879 /* CarLogoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FDCD241CAFABBD00F40879 /* CarLogoCollectionViewCell.swift */; };
+		99FDCD261CAFABBD00F40879 /* CarLogoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FDCD241CAFABBD00F40879 /* CarLogoCollectionViewCell.swift */; };
+		99FDCD271CAFABBD00F40879 /* CarLogoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FDCD241CAFABBD00F40879 /* CarLogoCollectionViewCell.swift */; };
+		99FDCD2D1CAFCA0100F40879 /* ImageSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FDCD2C1CAFCA0100F40879 /* ImageSlideViewController.swift */; };
+		99FDCD2E1CAFCA0100F40879 /* ImageSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FDCD2C1CAFCA0100F40879 /* ImageSlideViewController.swift */; };
+		99FDCD2F1CAFCA0100F40879 /* ImageSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FDCD2C1CAFCA0100F40879 /* ImageSlideViewController.swift */; };
 		99FF67211CAEB450006C7768 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF67201CAEB450006C7768 /* AppDelegate.swift */; };
 		99FF67231CAEB450006C7768 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF67221CAEB450006C7768 /* ViewController.swift */; };
 		99FF67261CAEB450006C7768 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67241CAEB450006C7768 /* Main.storyboard */; };
@@ -14,6 +108,96 @@
 		99FF672B1CAEB450006C7768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67291CAEB450006C7768 /* LaunchScreen.storyboard */; };
 		99FF67361CAEB450006C7768 /* MyNewCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF67351CAEB450006C7768 /* MyNewCarTests.swift */; };
 		99FF67411CAEB450006C7768 /* MyNewCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF67401CAEB450006C7768 /* MyNewCarUITests.swift */; };
+		99FF676F1CAEC378006C7768 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67511CAEC378006C7768 /* 1.jpg */; };
+		99FF67701CAEC378006C7768 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67511CAEC378006C7768 /* 1.jpg */; };
+		99FF67711CAEC378006C7768 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67511CAEC378006C7768 /* 1.jpg */; };
+		99FF67721CAEC378006C7768 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67521CAEC378006C7768 /* 2.jpg */; };
+		99FF67731CAEC378006C7768 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67521CAEC378006C7768 /* 2.jpg */; };
+		99FF67741CAEC378006C7768 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67521CAEC378006C7768 /* 2.jpg */; };
+		99FF67751CAEC378006C7768 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67531CAEC378006C7768 /* 3.jpg */; };
+		99FF67761CAEC378006C7768 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67531CAEC378006C7768 /* 3.jpg */; };
+		99FF67771CAEC378006C7768 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67531CAEC378006C7768 /* 3.jpg */; };
+		99FF67781CAEC378006C7768 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67541CAEC378006C7768 /* 4.jpg */; };
+		99FF67791CAEC378006C7768 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67541CAEC378006C7768 /* 4.jpg */; };
+		99FF677A1CAEC378006C7768 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67541CAEC378006C7768 /* 4.jpg */; };
+		99FF677B1CAEC378006C7768 /* Brands-Chervolet.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67551CAEC378006C7768 /* Brands-Chervolet.png */; };
+		99FF677C1CAEC378006C7768 /* Brands-Chervolet.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67551CAEC378006C7768 /* Brands-Chervolet.png */; };
+		99FF677D1CAEC378006C7768 /* Brands-Chervolet.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67551CAEC378006C7768 /* Brands-Chervolet.png */; };
+		99FF677E1CAEC378006C7768 /* Brands-Datsun.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67561CAEC378006C7768 /* Brands-Datsun.png */; };
+		99FF677F1CAEC378006C7768 /* Brands-Datsun.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67561CAEC378006C7768 /* Brands-Datsun.png */; };
+		99FF67801CAEC378006C7768 /* Brands-Datsun.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67561CAEC378006C7768 /* Brands-Datsun.png */; };
+		99FF67811CAEC378006C7768 /* Brands-Ford.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67571CAEC378006C7768 /* Brands-Ford.png */; };
+		99FF67821CAEC378006C7768 /* Brands-Ford.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67571CAEC378006C7768 /* Brands-Ford.png */; };
+		99FF67831CAEC378006C7768 /* Brands-Ford.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67571CAEC378006C7768 /* Brands-Ford.png */; };
+		99FF67841CAEC378006C7768 /* Brands-Honda.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67581CAEC378006C7768 /* Brands-Honda.png */; };
+		99FF67851CAEC378006C7768 /* Brands-Honda.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67581CAEC378006C7768 /* Brands-Honda.png */; };
+		99FF67861CAEC378006C7768 /* Brands-Honda.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67581CAEC378006C7768 /* Brands-Honda.png */; };
+		99FF67871CAEC378006C7768 /* Brands-hyundai.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67591CAEC378006C7768 /* Brands-hyundai.png */; };
+		99FF67881CAEC378006C7768 /* Brands-hyundai.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67591CAEC378006C7768 /* Brands-hyundai.png */; };
+		99FF67891CAEC378006C7768 /* Brands-hyundai.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67591CAEC378006C7768 /* Brands-hyundai.png */; };
+		99FF678A1CAEC378006C7768 /* Brands-mahindra.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF675A1CAEC378006C7768 /* Brands-mahindra.png */; };
+		99FF678B1CAEC378006C7768 /* Brands-mahindra.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF675A1CAEC378006C7768 /* Brands-mahindra.png */; };
+		99FF678C1CAEC378006C7768 /* Brands-mahindra.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF675A1CAEC378006C7768 /* Brands-mahindra.png */; };
+		99FF678D1CAEC378006C7768 /* Brands-nissan.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF675B1CAEC378006C7768 /* Brands-nissan.png */; };
+		99FF678E1CAEC378006C7768 /* Brands-nissan.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF675B1CAEC378006C7768 /* Brands-nissan.png */; };
+		99FF678F1CAEC378006C7768 /* Brands-nissan.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF675B1CAEC378006C7768 /* Brands-nissan.png */; };
+		99FF67901CAEC378006C7768 /* Brands-renault.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF675C1CAEC378006C7768 /* Brands-renault.png */; };
+		99FF67911CAEC378006C7768 /* Brands-renault.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF675C1CAEC378006C7768 /* Brands-renault.png */; };
+		99FF67921CAEC378006C7768 /* Brands-renault.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF675C1CAEC378006C7768 /* Brands-renault.png */; };
+		99FF67931CAEC378006C7768 /* Brands-skoda.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF675D1CAEC378006C7768 /* Brands-skoda.png */; };
+		99FF67941CAEC378006C7768 /* Brands-skoda.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF675D1CAEC378006C7768 /* Brands-skoda.png */; };
+		99FF67951CAEC378006C7768 /* Brands-skoda.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF675D1CAEC378006C7768 /* Brands-skoda.png */; };
+		99FF67961CAEC378006C7768 /* Brands-suzuki.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF675E1CAEC378006C7768 /* Brands-suzuki.png */; };
+		99FF67971CAEC378006C7768 /* Brands-suzuki.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF675E1CAEC378006C7768 /* Brands-suzuki.png */; };
+		99FF67981CAEC378006C7768 /* Brands-suzuki.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF675E1CAEC378006C7768 /* Brands-suzuki.png */; };
+		99FF67991CAEC378006C7768 /* Brands-tata.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF675F1CAEC378006C7768 /* Brands-tata.png */; };
+		99FF679A1CAEC378006C7768 /* Brands-tata.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF675F1CAEC378006C7768 /* Brands-tata.png */; };
+		99FF679B1CAEC378006C7768 /* Brands-tata.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF675F1CAEC378006C7768 /* Brands-tata.png */; };
+		99FF679C1CAEC378006C7768 /* Brands-toyota.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67601CAEC378006C7768 /* Brands-toyota.png */; };
+		99FF679D1CAEC378006C7768 /* Brands-toyota.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67601CAEC378006C7768 /* Brands-toyota.png */; };
+		99FF679E1CAEC378006C7768 /* Brands-toyota.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67601CAEC378006C7768 /* Brands-toyota.png */; };
+		99FF679F1CAEC378006C7768 /* Brands-vw.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67611CAEC378006C7768 /* Brands-vw.png */; };
+		99FF67A01CAEC378006C7768 /* Brands-vw.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67611CAEC378006C7768 /* Brands-vw.png */; };
+		99FF67A11CAEC378006C7768 /* Brands-vw.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67611CAEC378006C7768 /* Brands-vw.png */; };
+		99FF67A21CAEC378006C7768 /* CarType-Convertible.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67621CAEC378006C7768 /* CarType-Convertible.png */; };
+		99FF67A31CAEC378006C7768 /* CarType-Convertible.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67621CAEC378006C7768 /* CarType-Convertible.png */; };
+		99FF67A41CAEC378006C7768 /* CarType-Convertible.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67621CAEC378006C7768 /* CarType-Convertible.png */; };
+		99FF67A51CAEC378006C7768 /* CarType-Coupe.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67631CAEC378006C7768 /* CarType-Coupe.png */; };
+		99FF67A61CAEC378006C7768 /* CarType-Coupe.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67631CAEC378006C7768 /* CarType-Coupe.png */; };
+		99FF67A71CAEC378006C7768 /* CarType-Coupe.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67631CAEC378006C7768 /* CarType-Coupe.png */; };
+		99FF67A81CAEC378006C7768 /* CarType-HatchBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67641CAEC378006C7768 /* CarType-HatchBack.png */; };
+		99FF67A91CAEC378006C7768 /* CarType-HatchBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67641CAEC378006C7768 /* CarType-HatchBack.png */; };
+		99FF67AA1CAEC378006C7768 /* CarType-HatchBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67641CAEC378006C7768 /* CarType-HatchBack.png */; };
+		99FF67AB1CAEC378006C7768 /* CarType-Sedan.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67651CAEC378006C7768 /* CarType-Sedan.png */; };
+		99FF67AC1CAEC378006C7768 /* CarType-Sedan.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67651CAEC378006C7768 /* CarType-Sedan.png */; };
+		99FF67AD1CAEC378006C7768 /* CarType-Sedan.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67651CAEC378006C7768 /* CarType-Sedan.png */; };
+		99FF67AE1CAEC378006C7768 /* CarType-Station.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67661CAEC378006C7768 /* CarType-Station.png */; };
+		99FF67AF1CAEC378006C7768 /* CarType-Station.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67661CAEC378006C7768 /* CarType-Station.png */; };
+		99FF67B01CAEC378006C7768 /* CarType-Station.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67661CAEC378006C7768 /* CarType-Station.png */; };
+		99FF67B11CAEC378006C7768 /* CarType-SUV-MUV.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67671CAEC378006C7768 /* CarType-SUV-MUV.png */; };
+		99FF67B21CAEC378006C7768 /* CarType-SUV-MUV.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67671CAEC378006C7768 /* CarType-SUV-MUV.png */; };
+		99FF67B31CAEC378006C7768 /* CarType-SUV-MUV.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67671CAEC378006C7768 /* CarType-SUV-MUV.png */; };
+		99FF67B41CAEC378006C7768 /* CarType-Van.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67681CAEC378006C7768 /* CarType-Van.png */; };
+		99FF67B51CAEC378006C7768 /* CarType-Van.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67681CAEC378006C7768 /* CarType-Van.png */; };
+		99FF67B61CAEC378006C7768 /* CarType-Van.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67681CAEC378006C7768 /* CarType-Van.png */; };
+		99FF67B71CAEC378006C7768 /* HotDeal-Car1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67691CAEC378006C7768 /* HotDeal-Car1.jpg */; };
+		99FF67B81CAEC378006C7768 /* HotDeal-Car1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67691CAEC378006C7768 /* HotDeal-Car1.jpg */; };
+		99FF67B91CAEC378006C7768 /* HotDeal-Car1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF67691CAEC378006C7768 /* HotDeal-Car1.jpg */; };
+		99FF67BA1CAEC378006C7768 /* HotDeal-Car2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF676A1CAEC378006C7768 /* HotDeal-Car2.jpg */; };
+		99FF67BB1CAEC378006C7768 /* HotDeal-Car2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF676A1CAEC378006C7768 /* HotDeal-Car2.jpg */; };
+		99FF67BC1CAEC378006C7768 /* HotDeal-Car2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF676A1CAEC378006C7768 /* HotDeal-Car2.jpg */; };
+		99FF67BD1CAEC378006C7768 /* HotDeal-Car3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF676B1CAEC378006C7768 /* HotDeal-Car3.jpg */; };
+		99FF67BE1CAEC378006C7768 /* HotDeal-Car3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF676B1CAEC378006C7768 /* HotDeal-Car3.jpg */; };
+		99FF67BF1CAEC378006C7768 /* HotDeal-Car3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF676B1CAEC378006C7768 /* HotDeal-Car3.jpg */; };
+		99FF67C01CAEC378006C7768 /* HotDeal-Car4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF676C1CAEC378006C7768 /* HotDeal-Car4.jpg */; };
+		99FF67C11CAEC378006C7768 /* HotDeal-Car4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF676C1CAEC378006C7768 /* HotDeal-Car4.jpg */; };
+		99FF67C21CAEC378006C7768 /* HotDeal-Car4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF676C1CAEC378006C7768 /* HotDeal-Car4.jpg */; };
+		99FF67C31CAEC378006C7768 /* HotDeal-car5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF676D1CAEC378006C7768 /* HotDeal-car5.jpg */; };
+		99FF67C41CAEC378006C7768 /* HotDeal-car5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF676D1CAEC378006C7768 /* HotDeal-car5.jpg */; };
+		99FF67C51CAEC378006C7768 /* HotDeal-car5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF676D1CAEC378006C7768 /* HotDeal-car5.jpg */; };
+		99FF67C61CAEC378006C7768 /* HotDeal-car6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF676E1CAEC378006C7768 /* HotDeal-car6.jpg */; };
+		99FF67C71CAEC378006C7768 /* HotDeal-car6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF676E1CAEC378006C7768 /* HotDeal-car6.jpg */; };
+		99FF67C81CAEC378006C7768 /* HotDeal-car6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FF676E1CAEC378006C7768 /* HotDeal-car6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +218,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		99766B7C1CB231F900046893 /* MyNewCar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyNewCar-Bridging-Header.h"; sourceTree = "<group>"; };
+		99766B7D1CB231F900046893 /* MyNewCarTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyNewCarTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		99766B7E1CB231F900046893 /* MyNewCarUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyNewCarUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		99766B7F1CB231FA00046893 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		99766B801CB231FA00046893 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		99766B881CB2381100046893 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		99766B941CB23F5C00046893 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		99766B981CB2425400046893 /* backImageOnSideBar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backImageOnSideBar.jpg; sourceTree = "<group>"; };
+		99766B9C1CB244EE00046893 /* defaultProfilePic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = defaultProfilePic.jpg; sourceTree = "<group>"; };
+		99766BA71CB24EDC00046893 /* SideBarLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideBarLogin.png; sourceTree = "<group>"; };
+		99766BA81CB24EDC00046893 /* SideBaruser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideBaruser.png; sourceTree = "<group>"; };
+		99766BC41CB2510300046893 /* SideBarHome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideBarHome.png; sourceTree = "<group>"; };
+		99766BC51CB2510300046893 /* SideBarHotDeal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideBarHotDeal.png; sourceTree = "<group>"; };
+		99766BC61CB2510300046893 /* SideBarSearch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideBarSearch.png; sourceTree = "<group>"; };
+		99766BD41CB26A5900046893 /* SideBarCompareCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideBarCompareCar.png; sourceTree = "<group>"; };
+		99766BD51CB26A5900046893 /* SideBarContactUs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideBarContactUs.png; sourceTree = "<group>"; };
+		99766BDC1CB26BAE00046893 /* SideBarBookATestDrive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideBarBookATestDrive.png; sourceTree = "<group>"; };
+		99766BDD1CB26BAE00046893 /* SideBarBrands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SideBarBrands.jpg; sourceTree = "<group>"; };
+		99766BDE1CB26BAE00046893 /* SideBarCarLease.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideBarCarLease.png; sourceTree = "<group>"; };
+		99766BE81CB26D4700046893 /* SideBarNews.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideBarNews.png; sourceTree = "<group>"; };
+		99766BEC1CB26F7100046893 /* SideBarLogout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SideBarLogout.jpg; sourceTree = "<group>"; };
+		99766BF01CB2712500046893 /* Whyus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Whyus.png; sourceTree = "<group>"; };
+		99766BF41CB2716B00046893 /* SideProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideProfile.png; sourceTree = "<group>"; };
+		99766BFC1CB271B900046893 /* SideSetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideSetting.png; sourceTree = "<group>"; };
+		99766C001CB2729000046893 /* sideAboutUs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sideAboutUs.png; sourceTree = "<group>"; };
+		99766C041CB272F700046893 /* Sidenews.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sidenews.png; sourceTree = "<group>"; };
+		99766C081CB2789A00046893 /* SideBarOptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarOptionCell.swift; sourceTree = "<group>"; };
+		99766C0C1CB27C7D00046893 /* CarSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarSearchViewController.swift; sourceTree = "<group>"; };
+		99766C101CB2948700046893 /* CarTypeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTypeCollectionViewCell.swift; sourceTree = "<group>"; };
+		99E7931C1CAFE1CC00A8B004 /* last1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = last1.jpg; sourceTree = "<group>"; };
+		99E7931D1CAFE1CC00A8B004 /* last2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = last2.jpg; sourceTree = "<group>"; };
+		99E7931E1CAFE1CC00A8B004 /* last3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = last3.jpg; sourceTree = "<group>"; };
+		99EA7E821CB39591000F7FE9 /* RangeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
+		99EA7E841CB39ED5000F7FE9 /* TestingRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestingRange.swift; sourceTree = "<group>"; };
+		99EA7E881CB3BF5F000F7FE9 /* BookTestDriveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookTestDriveViewController.swift; path = ../BookTestDriveViewController.swift; sourceTree = "<group>"; };
+		99EA7E8A1CB3D23C000F7FE9 /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		99FDCD1C1CAF800700F40879 /* hamburger-large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hamburger-large.jpg"; sourceTree = "<group>"; };
+		99FDCD201CAF84EF00F40879 /* HotDealCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotDealCollectionViewCell.swift; sourceTree = "<group>"; };
+		99FDCD241CAFABBD00F40879 /* CarLogoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarLogoCollectionViewCell.swift; sourceTree = "<group>"; };
+		99FDCD2C1CAFCA0100F40879 /* ImageSlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSlideViewController.swift; sourceTree = "<group>"; };
 		99FF671D1CAEB450006C7768 /* MyNewCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNewCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99FF67201CAEB450006C7768 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99FF67221CAEB450006C7768 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +271,36 @@
 		99FF673C1CAEB450006C7768 /* MyNewCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNewCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99FF67401CAEB450006C7768 /* MyNewCarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNewCarUITests.swift; sourceTree = "<group>"; };
 		99FF67421CAEB450006C7768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99FF67511CAEC378006C7768 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		99FF67521CAEC378006C7768 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		99FF67531CAEC378006C7768 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		99FF67541CAEC378006C7768 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		99FF67551CAEC378006C7768 /* Brands-Chervolet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brands-Chervolet.png"; sourceTree = "<group>"; };
+		99FF67561CAEC378006C7768 /* Brands-Datsun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brands-Datsun.png"; sourceTree = "<group>"; };
+		99FF67571CAEC378006C7768 /* Brands-Ford.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brands-Ford.png"; sourceTree = "<group>"; };
+		99FF67581CAEC378006C7768 /* Brands-Honda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brands-Honda.png"; sourceTree = "<group>"; };
+		99FF67591CAEC378006C7768 /* Brands-hyundai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brands-hyundai.png"; sourceTree = "<group>"; };
+		99FF675A1CAEC378006C7768 /* Brands-mahindra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brands-mahindra.png"; sourceTree = "<group>"; };
+		99FF675B1CAEC378006C7768 /* Brands-nissan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brands-nissan.png"; sourceTree = "<group>"; };
+		99FF675C1CAEC378006C7768 /* Brands-renault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brands-renault.png"; sourceTree = "<group>"; };
+		99FF675D1CAEC378006C7768 /* Brands-skoda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brands-skoda.png"; sourceTree = "<group>"; };
+		99FF675E1CAEC378006C7768 /* Brands-suzuki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brands-suzuki.png"; sourceTree = "<group>"; };
+		99FF675F1CAEC378006C7768 /* Brands-tata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brands-tata.png"; sourceTree = "<group>"; };
+		99FF67601CAEC378006C7768 /* Brands-toyota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brands-toyota.png"; sourceTree = "<group>"; };
+		99FF67611CAEC378006C7768 /* Brands-vw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brands-vw.png"; sourceTree = "<group>"; };
+		99FF67621CAEC378006C7768 /* CarType-Convertible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CarType-Convertible.png"; sourceTree = "<group>"; };
+		99FF67631CAEC378006C7768 /* CarType-Coupe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CarType-Coupe.png"; sourceTree = "<group>"; };
+		99FF67641CAEC378006C7768 /* CarType-HatchBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CarType-HatchBack.png"; sourceTree = "<group>"; };
+		99FF67651CAEC378006C7768 /* CarType-Sedan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CarType-Sedan.png"; sourceTree = "<group>"; };
+		99FF67661CAEC378006C7768 /* CarType-Station.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CarType-Station.png"; sourceTree = "<group>"; };
+		99FF67671CAEC378006C7768 /* CarType-SUV-MUV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CarType-SUV-MUV.png"; sourceTree = "<group>"; };
+		99FF67681CAEC378006C7768 /* CarType-Van.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CarType-Van.png"; sourceTree = "<group>"; };
+		99FF67691CAEC378006C7768 /* HotDeal-Car1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "HotDeal-Car1.jpg"; sourceTree = "<group>"; };
+		99FF676A1CAEC378006C7768 /* HotDeal-Car2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "HotDeal-Car2.jpg"; sourceTree = "<group>"; };
+		99FF676B1CAEC378006C7768 /* HotDeal-Car3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "HotDeal-Car3.jpg"; sourceTree = "<group>"; };
+		99FF676C1CAEC378006C7768 /* HotDeal-Car4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "HotDeal-Car4.jpg"; sourceTree = "<group>"; };
+		99FF676D1CAEC378006C7768 /* HotDeal-car5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "HotDeal-car5.jpg"; sourceTree = "<group>"; };
+		99FF676E1CAEC378006C7768 /* HotDeal-car6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "HotDeal-car6.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +328,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99766B7B1CB231B400046893 /* SWRevealViewControl */ = {
+			isa = PBXGroup;
+			children = (
+				99766B7F1CB231FA00046893 /* SWRevealViewController.h */,
+				99766B801CB231FA00046893 /* SWRevealViewController.m */,
+				99766B7C1CB231F900046893 /* MyNewCar-Bridging-Header.h */,
+				99766B7D1CB231F900046893 /* MyNewCarTests-Bridging-Header.h */,
+				99766B7E1CB231F900046893 /* MyNewCarUITests-Bridging-Header.h */,
+			);
+			name = SWRevealViewControl;
+			sourceTree = "<group>";
+		};
 		99FF67141CAEB44F006C7768 = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +363,22 @@
 		99FF671F1CAEB450006C7768 /* MyNewCar */ = {
 			isa = PBXGroup;
 			children = (
+				99766B7B1CB231B400046893 /* SWRevealViewControl */,
+				99FF67501CAEC32E006C7768 /* image */,
 				99FF67201CAEB450006C7768 /* AppDelegate.swift */,
 				99FF67221CAEB450006C7768 /* ViewController.swift */,
 				99FF67241CAEB450006C7768 /* Main.storyboard */,
+				99EA7E881CB3BF5F000F7FE9 /* BookTestDriveViewController.swift */,
+				99EA7E841CB39ED5000F7FE9 /* TestingRange.swift */,
+				99EA7E8A1CB3D23C000F7FE9 /* PopUpViewController.swift */,
+				99766C0C1CB27C7D00046893 /* CarSearchViewController.swift */,
+				99766C081CB2789A00046893 /* SideBarOptionCell.swift */,
+				99766B941CB23F5C00046893 /* MenuViewController.swift */,
+				99FDCD2C1CAFCA0100F40879 /* ImageSlideViewController.swift */,
+				99FDCD201CAF84EF00F40879 /* HotDealCollectionViewCell.swift */,
+				99766C101CB2948700046893 /* CarTypeCollectionViewCell.swift */,
+				99FDCD241CAFABBD00F40879 /* CarLogoCollectionViewCell.swift */,
+				99EA7E821CB39591000F7FE9 /* RangeSlider.swift */,
 				99FF67271CAEB450006C7768 /* Assets.xcassets */,
 				99FF67291CAEB450006C7768 /* LaunchScreen.storyboard */,
 				99FF672C1CAEB450006C7768 /* Info.plist */,
@@ -123,6 +402,67 @@
 				99FF67421CAEB450006C7768 /* Info.plist */,
 			);
 			path = MyNewCarUITests;
+			sourceTree = "<group>";
+		};
+		99FF67501CAEC32E006C7768 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				99766B881CB2381100046893 /* menu.png */,
+				99766B981CB2425400046893 /* backImageOnSideBar.jpg */,
+				99766B9C1CB244EE00046893 /* defaultProfilePic.jpg */,
+				99766BA71CB24EDC00046893 /* SideBarLogin.png */,
+				99766BA81CB24EDC00046893 /* SideBaruser.png */,
+				99766BC41CB2510300046893 /* SideBarHome.png */,
+				99766BC51CB2510300046893 /* SideBarHotDeal.png */,
+				99766BC61CB2510300046893 /* SideBarSearch.png */,
+				99766BD41CB26A5900046893 /* SideBarCompareCar.png */,
+				99766BD51CB26A5900046893 /* SideBarContactUs.png */,
+				99766BDC1CB26BAE00046893 /* SideBarBookATestDrive.png */,
+				99766BDD1CB26BAE00046893 /* SideBarBrands.jpg */,
+				99766BDE1CB26BAE00046893 /* SideBarCarLease.png */,
+				99766BE81CB26D4700046893 /* SideBarNews.png */,
+				99766BEC1CB26F7100046893 /* SideBarLogout.jpg */,
+				99766C041CB272F700046893 /* Sidenews.png */,
+				99766BF01CB2712500046893 /* Whyus.png */,
+				99766BF41CB2716B00046893 /* SideProfile.png */,
+				99766BFC1CB271B900046893 /* SideSetting.png */,
+				99766C001CB2729000046893 /* sideAboutUs.png */,
+				99FF67511CAEC378006C7768 /* 1.jpg */,
+				99FF67521CAEC378006C7768 /* 2.jpg */,
+				99FF67531CAEC378006C7768 /* 3.jpg */,
+				99FF67541CAEC378006C7768 /* 4.jpg */,
+				99FF67551CAEC378006C7768 /* Brands-Chervolet.png */,
+				99FF67561CAEC378006C7768 /* Brands-Datsun.png */,
+				99FF67571CAEC378006C7768 /* Brands-Ford.png */,
+				99FF67581CAEC378006C7768 /* Brands-Honda.png */,
+				99FF67591CAEC378006C7768 /* Brands-hyundai.png */,
+				99FF675A1CAEC378006C7768 /* Brands-mahindra.png */,
+				99FF675B1CAEC378006C7768 /* Brands-nissan.png */,
+				99FF675C1CAEC378006C7768 /* Brands-renault.png */,
+				99FF675D1CAEC378006C7768 /* Brands-skoda.png */,
+				99FF675E1CAEC378006C7768 /* Brands-suzuki.png */,
+				99FF675F1CAEC378006C7768 /* Brands-tata.png */,
+				99FF67601CAEC378006C7768 /* Brands-toyota.png */,
+				99FF67611CAEC378006C7768 /* Brands-vw.png */,
+				99FF67621CAEC378006C7768 /* CarType-Convertible.png */,
+				99FF67631CAEC378006C7768 /* CarType-Coupe.png */,
+				99FF67641CAEC378006C7768 /* CarType-HatchBack.png */,
+				99FF67651CAEC378006C7768 /* CarType-Sedan.png */,
+				99FF67661CAEC378006C7768 /* CarType-Station.png */,
+				99FF67671CAEC378006C7768 /* CarType-SUV-MUV.png */,
+				99FF67681CAEC378006C7768 /* CarType-Van.png */,
+				99FF67691CAEC378006C7768 /* HotDeal-Car1.jpg */,
+				99FF676A1CAEC378006C7768 /* HotDeal-Car2.jpg */,
+				99FF676B1CAEC378006C7768 /* HotDeal-Car3.jpg */,
+				99FF676C1CAEC378006C7768 /* HotDeal-Car4.jpg */,
+				99FF676D1CAEC378006C7768 /* HotDeal-car5.jpg */,
+				99FF676E1CAEC378006C7768 /* HotDeal-car6.jpg */,
+				99FDCD1C1CAF800700F40879 /* hamburger-large.jpg */,
+				99E7931C1CAFE1CC00A8B004 /* last1.jpg */,
+				99E7931D1CAFE1CC00A8B004 /* last2.jpg */,
+				99E7931E1CAFE1CC00A8B004 /* last3.jpg */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +569,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99766BED1CB26F7100046893 /* SideBarLogout.jpg in Resources */,
+				99766BCA1CB2510300046893 /* SideBarHotDeal.png in Resources */,
 				99FF672B1CAEB450006C7768 /* LaunchScreen.storyboard in Resources */,
+				99FF678A1CAEC378006C7768 /* Brands-mahindra.png in Resources */,
+				99E793201CAFE1CC00A8B004 /* last2.jpg in Resources */,
+				99FF677E1CAEC378006C7768 /* Brands-Datsun.png in Resources */,
+				99FF67A21CAEC378006C7768 /* CarType-Convertible.png in Resources */,
+				99FF67AB1CAEC378006C7768 /* CarType-Sedan.png in Resources */,
+				99766BD61CB26A5900046893 /* SideBarCompareCar.png in Resources */,
+				99766B9D1CB244EE00046893 /* defaultProfilePic.jpg in Resources */,
+				99FF67781CAEC378006C7768 /* 4.jpg in Resources */,
+				99766C051CB272F700046893 /* Sidenews.png in Resources */,
+				99FF67A51CAEC378006C7768 /* CarType-Coupe.png in Resources */,
+				99766BF51CB2716B00046893 /* SideProfile.png in Resources */,
+				99FF677B1CAEC378006C7768 /* Brands-Chervolet.png in Resources */,
+				99FF679C1CAEC378006C7768 /* Brands-toyota.png in Resources */,
+				99766BE21CB26BAE00046893 /* SideBarBrands.jpg in Resources */,
+				99FDCD1D1CAF800700F40879 /* hamburger-large.jpg in Resources */,
+				99FF678D1CAEC378006C7768 /* Brands-nissan.png in Resources */,
+				99766C011CB2729000046893 /* sideAboutUs.png in Resources */,
+				99766BE51CB26BAE00046893 /* SideBarCarLease.png in Resources */,
+				99766B891CB2381100046893 /* menu.png in Resources */,
+				99FF676F1CAEC378006C7768 /* 1.jpg in Resources */,
+				99FF67841CAEC378006C7768 /* Brands-Honda.png in Resources */,
+				99FF67721CAEC378006C7768 /* 2.jpg in Resources */,
+				99FF67811CAEC378006C7768 /* Brands-Ford.png in Resources */,
+				99766BCD1CB2510300046893 /* SideBarSearch.png in Resources */,
+				99FF67961CAEC378006C7768 /* Brands-suzuki.png in Resources */,
+				99FF679F1CAEC378006C7768 /* Brands-vw.png in Resources */,
+				99FF67C01CAEC378006C7768 /* HotDeal-Car4.jpg in Resources */,
+				99766BFD1CB271B900046893 /* SideSetting.png in Resources */,
+				99FF67B11CAEC378006C7768 /* CarType-SUV-MUV.png in Resources */,
+				99766BF11CB2712500046893 /* Whyus.png in Resources */,
+				99766BD91CB26A5900046893 /* SideBarContactUs.png in Resources */,
+				99FF67751CAEC378006C7768 /* 3.jpg in Resources */,
+				99766BC71CB2510300046893 /* SideBarHome.png in Resources */,
+				99766BDF1CB26BAE00046893 /* SideBarBookATestDrive.png in Resources */,
+				99FF67BA1CAEC378006C7768 /* HotDeal-Car2.jpg in Resources */,
 				99FF67281CAEB450006C7768 /* Assets.xcassets in Resources */,
+				99766BC11CB24EDC00046893 /* SideBaruser.png in Resources */,
+				99FF67B41CAEC378006C7768 /* CarType-Van.png in Resources */,
+				99FF67931CAEC378006C7768 /* Brands-skoda.png in Resources */,
+				99E7931F1CAFE1CC00A8B004 /* last1.jpg in Resources */,
+				99E793211CAFE1CC00A8B004 /* last3.jpg in Resources */,
+				99FF67871CAEC378006C7768 /* Brands-hyundai.png in Resources */,
+				99FF67C31CAEC378006C7768 /* HotDeal-car5.jpg in Resources */,
+				99766BE91CB26D4700046893 /* SideBarNews.png in Resources */,
+				99FF67901CAEC378006C7768 /* Brands-renault.png in Resources */,
+				99766BBE1CB24EDC00046893 /* SideBarLogin.png in Resources */,
+				99FF67AE1CAEC378006C7768 /* CarType-Station.png in Resources */,
+				99FF67B71CAEC378006C7768 /* HotDeal-Car1.jpg in Resources */,
+				99FF67BD1CAEC378006C7768 /* HotDeal-Car3.jpg in Resources */,
 				99FF67261CAEB450006C7768 /* Main.storyboard in Resources */,
+				99FF67A81CAEC378006C7768 /* CarType-HatchBack.png in Resources */,
+				99FF67C61CAEC378006C7768 /* HotDeal-car6.jpg in Resources */,
+				99FF67991CAEC378006C7768 /* Brands-tata.png in Resources */,
+				99766B991CB2425400046893 /* backImageOnSideBar.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +633,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99766BF21CB2712500046893 /* Whyus.png in Resources */,
+				99FF677C1CAEC378006C7768 /* Brands-Chervolet.png in Resources */,
+				99FF67C71CAEC378006C7768 /* HotDeal-car6.jpg in Resources */,
+				99FF67791CAEC378006C7768 /* 4.jpg in Resources */,
+				99FF67941CAEC378006C7768 /* Brands-skoda.png in Resources */,
+				99FF67A61CAEC378006C7768 /* CarType-Coupe.png in Resources */,
+				99FF67B51CAEC378006C7768 /* CarType-Van.png in Resources */,
+				99FF67AC1CAEC378006C7768 /* CarType-Sedan.png in Resources */,
+				99766BBF1CB24EDC00046893 /* SideBarLogin.png in Resources */,
+				99FF67761CAEC378006C7768 /* 3.jpg in Resources */,
+				99FF67BB1CAEC378006C7768 /* HotDeal-Car2.jpg in Resources */,
+				99766BEA1CB26D4700046893 /* SideBarNews.png in Resources */,
+				99FF678E1CAEC378006C7768 /* Brands-nissan.png in Resources */,
+				99766BE31CB26BAE00046893 /* SideBarBrands.jpg in Resources */,
+				99FF67A91CAEC378006C7768 /* CarType-HatchBack.png in Resources */,
+				99766B9A1CB2425400046893 /* backImageOnSideBar.jpg in Resources */,
+				99FF679A1CAEC378006C7768 /* Brands-tata.png in Resources */,
+				99766C061CB272F700046893 /* Sidenews.png in Resources */,
+				99766BC81CB2510300046893 /* SideBarHome.png in Resources */,
+				99766BD71CB26A5900046893 /* SideBarCompareCar.png in Resources */,
+				99FF67BE1CAEC378006C7768 /* HotDeal-Car3.jpg in Resources */,
+				99766B9E1CB244EE00046893 /* defaultProfilePic.jpg in Resources */,
+				99FF67B21CAEC378006C7768 /* CarType-SUV-MUV.png in Resources */,
+				99FF67C41CAEC378006C7768 /* HotDeal-car5.jpg in Resources */,
+				99FF67B81CAEC378006C7768 /* HotDeal-Car1.jpg in Resources */,
+				99766BF61CB2716B00046893 /* SideProfile.png in Resources */,
+				99766BCE1CB2510300046893 /* SideBarSearch.png in Resources */,
+				99766BE01CB26BAE00046893 /* SideBarBookATestDrive.png in Resources */,
+				99766BE61CB26BAE00046893 /* SideBarCarLease.png in Resources */,
+				99766BFE1CB271B900046893 /* SideSetting.png in Resources */,
+				99766BDA1CB26A5900046893 /* SideBarContactUs.png in Resources */,
+				99766B8A1CB2381100046893 /* menu.png in Resources */,
+				99FF67A31CAEC378006C7768 /* CarType-Convertible.png in Resources */,
+				99766C021CB2729000046893 /* sideAboutUs.png in Resources */,
+				99FF678B1CAEC378006C7768 /* Brands-mahindra.png in Resources */,
+				99766BEE1CB26F7100046893 /* SideBarLogout.jpg in Resources */,
+				99FF67A01CAEC378006C7768 /* Brands-vw.png in Resources */,
+				99FF67821CAEC378006C7768 /* Brands-Ford.png in Resources */,
+				99FF67881CAEC378006C7768 /* Brands-hyundai.png in Resources */,
+				99FF67911CAEC378006C7768 /* Brands-renault.png in Resources */,
+				99FDCD1E1CAF800700F40879 /* hamburger-large.jpg in Resources */,
+				99FF67AF1CAEC378006C7768 /* CarType-Station.png in Resources */,
+				99FF67851CAEC378006C7768 /* Brands-Honda.png in Resources */,
+				99766BC21CB24EDC00046893 /* SideBaruser.png in Resources */,
+				99FF679D1CAEC378006C7768 /* Brands-toyota.png in Resources */,
+				99FF67971CAEC378006C7768 /* Brands-suzuki.png in Resources */,
+				99766BCB1CB2510300046893 /* SideBarHotDeal.png in Resources */,
+				99FF67731CAEC378006C7768 /* 2.jpg in Resources */,
+				99FF677F1CAEC378006C7768 /* Brands-Datsun.png in Resources */,
+				99FF67701CAEC378006C7768 /* 1.jpg in Resources */,
+				99FF67C11CAEC378006C7768 /* HotDeal-Car4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +691,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99766BF31CB2712500046893 /* Whyus.png in Resources */,
+				99FF677D1CAEC378006C7768 /* Brands-Chervolet.png in Resources */,
+				99FF67C81CAEC378006C7768 /* HotDeal-car6.jpg in Resources */,
+				99FF677A1CAEC378006C7768 /* 4.jpg in Resources */,
+				99FF67951CAEC378006C7768 /* Brands-skoda.png in Resources */,
+				99FF67A71CAEC378006C7768 /* CarType-Coupe.png in Resources */,
+				99FF67B61CAEC378006C7768 /* CarType-Van.png in Resources */,
+				99FF67AD1CAEC378006C7768 /* CarType-Sedan.png in Resources */,
+				99766BC01CB24EDC00046893 /* SideBarLogin.png in Resources */,
+				99FF67771CAEC378006C7768 /* 3.jpg in Resources */,
+				99FF67BC1CAEC378006C7768 /* HotDeal-Car2.jpg in Resources */,
+				99766BEB1CB26D4700046893 /* SideBarNews.png in Resources */,
+				99FF678F1CAEC378006C7768 /* Brands-nissan.png in Resources */,
+				99766BE41CB26BAE00046893 /* SideBarBrands.jpg in Resources */,
+				99FF67AA1CAEC378006C7768 /* CarType-HatchBack.png in Resources */,
+				99766B9B1CB2425400046893 /* backImageOnSideBar.jpg in Resources */,
+				99FF679B1CAEC378006C7768 /* Brands-tata.png in Resources */,
+				99766C071CB272F700046893 /* Sidenews.png in Resources */,
+				99766BC91CB2510300046893 /* SideBarHome.png in Resources */,
+				99766BD81CB26A5900046893 /* SideBarCompareCar.png in Resources */,
+				99FF67BF1CAEC378006C7768 /* HotDeal-Car3.jpg in Resources */,
+				99766B9F1CB244EE00046893 /* defaultProfilePic.jpg in Resources */,
+				99FF67B31CAEC378006C7768 /* CarType-SUV-MUV.png in Resources */,
+				99FF67C51CAEC378006C7768 /* HotDeal-car5.jpg in Resources */,
+				99FF67B91CAEC378006C7768 /* HotDeal-Car1.jpg in Resources */,
+				99766BF71CB2716B00046893 /* SideProfile.png in Resources */,
+				99766BCF1CB2510300046893 /* SideBarSearch.png in Resources */,
+				99766BE11CB26BAE00046893 /* SideBarBookATestDrive.png in Resources */,
+				99766BE71CB26BAE00046893 /* SideBarCarLease.png in Resources */,
+				99766BFF1CB271B900046893 /* SideSetting.png in Resources */,
+				99766BDB1CB26A5900046893 /* SideBarContactUs.png in Resources */,
+				99766B8B1CB2381100046893 /* menu.png in Resources */,
+				99FF67A41CAEC378006C7768 /* CarType-Convertible.png in Resources */,
+				99766C031CB2729000046893 /* sideAboutUs.png in Resources */,
+				99FF678C1CAEC378006C7768 /* Brands-mahindra.png in Resources */,
+				99766BEF1CB26F7100046893 /* SideBarLogout.jpg in Resources */,
+				99FF67A11CAEC378006C7768 /* Brands-vw.png in Resources */,
+				99FF67831CAEC378006C7768 /* Brands-Ford.png in Resources */,
+				99FF67891CAEC378006C7768 /* Brands-hyundai.png in Resources */,
+				99FF67921CAEC378006C7768 /* Brands-renault.png in Resources */,
+				99FDCD1F1CAF800700F40879 /* hamburger-large.jpg in Resources */,
+				99FF67B01CAEC378006C7768 /* CarType-Station.png in Resources */,
+				99FF67861CAEC378006C7768 /* Brands-Honda.png in Resources */,
+				99766BC31CB24EDC00046893 /* SideBaruser.png in Resources */,
+				99FF679E1CAEC378006C7768 /* Brands-toyota.png in Resources */,
+				99FF67981CAEC378006C7768 /* Brands-suzuki.png in Resources */,
+				99766BCC1CB2510300046893 /* SideBarHotDeal.png in Resources */,
+				99FF67741CAEC378006C7768 /* 2.jpg in Resources */,
+				99FF67801CAEC378006C7768 /* Brands-Datsun.png in Resources */,
+				99FF67711CAEC378006C7768 /* 1.jpg in Resources */,
+				99FF67C21CAEC378006C7768 /* HotDeal-Car4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +752,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99EA7E851CB39ED5000F7FE9 /* TestingRange.swift in Sources */,
+				99FDCD251CAFABBD00F40879 /* CarLogoCollectionViewCell.swift in Sources */,
 				99FF67231CAEB450006C7768 /* ViewController.swift in Sources */,
 				99FF67211CAEB450006C7768 /* AppDelegate.swift in Sources */,
+				99EA7E891CB3BF5F000F7FE9 /* BookTestDriveViewController.swift in Sources */,
+				99766C111CB2948700046893 /* CarTypeCollectionViewCell.swift in Sources */,
+				99FDCD2D1CAFCA0100F40879 /* ImageSlideViewController.swift in Sources */,
+				99EA7E831CB39591000F7FE9 /* RangeSlider.swift in Sources */,
+				99FDCD211CAF84EF00F40879 /* HotDealCollectionViewCell.swift in Sources */,
+				99EA7E8B1CB3D23D000F7FE9 /* PopUpViewController.swift in Sources */,
+				99766C091CB2789A00046893 /* SideBarOptionCell.swift in Sources */,
+				99766B811CB231FA00046893 /* SWRevealViewController.m in Sources */,
+				99766C0D1CB27C7D00046893 /* CarSearchViewController.swift in Sources */,
+				99766B951CB23F5C00046893 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +773,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99766C0A1CB2789A00046893 /* SideBarOptionCell.swift in Sources */,
+				99FDCD2E1CAFCA0100F40879 /* ImageSlideViewController.swift in Sources */,
+				99FDCD221CAF84EF00F40879 /* HotDealCollectionViewCell.swift in Sources */,
+				99766C0E1CB27C7D00046893 /* CarSearchViewController.swift in Sources */,
+				99766C121CB2948700046893 /* CarTypeCollectionViewCell.swift in Sources */,
+				99766B961CB23F5C00046893 /* MenuViewController.swift in Sources */,
+				99766B821CB231FA00046893 /* SWRevealViewController.m in Sources */,
+				99FDCD261CAFABBD00F40879 /* CarLogoCollectionViewCell.swift in Sources */,
 				99FF67361CAEB450006C7768 /* MyNewCarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +789,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99766C0B1CB2789A00046893 /* SideBarOptionCell.swift in Sources */,
+				99FDCD2F1CAFCA0100F40879 /* ImageSlideViewController.swift in Sources */,
+				99FDCD231CAF84EF00F40879 /* HotDealCollectionViewCell.swift in Sources */,
+				99766C0F1CB27C7D00046893 /* CarSearchViewController.swift in Sources */,
+				99766C131CB2948700046893 /* CarTypeCollectionViewCell.swift in Sources */,
+				99766B971CB23F5C00046893 /* MenuViewController.swift in Sources */,
+				99766B831CB231FA00046893 /* SWRevealViewController.m in Sources */,
+				99FDCD271CAFABBD00F40879 /* CarLogoCollectionViewCell.swift in Sources */,
 				99FF67411CAEB450006C7768 /* MyNewCarUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,10 +925,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyNewCar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = car.MyNewCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyNewCar/MyNewCar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -412,10 +939,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyNewCar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = car.MyNewCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyNewCar/MyNewCar-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -423,10 +952,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyNewCarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = car.MyNewCarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyNewCar/MyNewCarTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNewCar.app/MyNewCar";
 			};
 			name = Debug;
@@ -435,10 +967,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyNewCarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = car.MyNewCarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyNewCar/MyNewCarTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNewCar.app/MyNewCar";
 			};
 			name = Release;
@@ -446,10 +980,13 @@
 		99FF674C1CAEB450006C7768 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyNewCarUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = car.MyNewCarUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyNewCar/MyNewCarUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_TARGET_NAME = MyNewCar;
 			};
 			name = Debug;
@@ -457,10 +994,12 @@
 		99FF674D1CAEB450006C7768 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyNewCarUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = car.MyNewCarUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyNewCar/MyNewCarUITests-Bridging-Header.h";
 				TEST_TARGET_NAME = MyNewCar;
 			};
 			name = Release;
@@ -484,6 +1023,7 @@
 				99FF67471CAEB450006C7768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99FF67481CAEB450006C7768 /* Build configuration list for PBXNativeTarget "MyNewCarTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +1032,7 @@
 				99FF674A1CAEB450006C7768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99FF674B1CAEB450006C7768 /* Build configuration list for PBXNativeTarget "MyNewCarUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +1041,7 @@
 				99FF674D1CAEB450006C7768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
