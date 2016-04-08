@@ -78,8 +78,20 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         dispatch_async(backgroundQueue, {
             print("This is run on the background queue")
             
+            dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                print("This is run on the main queue, after the previous code in outer block")
+            })
+            
         })
 
+        
+        hotDealCarCollectionView.allowsMultipleSelection = false
+        
+        carLogoCollectionView.allowsMultipleSelection = false
+        
+        carTypeCollection.allowsMultipleSelection = false
+        
+        
         self.getImageFormUrl()
         
         // add image to array
@@ -343,13 +355,13 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         }
         
         
-               // for Car Logo COlectionView
+        // for Car Logo COlectionView
         if (collectionView == carLogoCollectionView)
         {
         
             let carLogoCell = collectionView.dequeueReusableCellWithReuseIdentifier("carLogo", forIndexPath: indexPath) as! CarLogoCollectionViewCell
             
-
+            //carLogoCollectionView.backgroundColor = UIColor(red:200.0, green:230.0, blue:208.0, alpha:1)
             // set image
             carLogoCell.carLogoImageView.image = UIImage(named: carLogoImage[indexPath.row])
             
@@ -364,8 +376,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
         if (collectionView == carTypeCollection)
         {
-            
-            
             // set image
             carTypeCell.carTypeImageView.image = UIImage(named: carTypeImage[indexPath.row])
             // set Logo name
@@ -383,8 +393,23 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         // handle tap events
-        print("You selected cell #\(carTypeName[indexPath.row])!")
+       // print("You selected cell #\(carTypeName[indexPath.row])!")
         
+        let cell = collectionView.cellForItemAtIndexPath(indexPath)
+        
+        cell!.backgroundColor = UIColor(red:255.0, green:255.0, blue:255.0, alpha:1)
+        cell!.layer.borderColor = UIColor.redColor().CGColor
+        cell!.layer.borderWidth = 1.0
+       
+        
+    }
+    
+    func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath)
+    {
+        let cell = collectionView.cellForItemAtIndexPath(indexPath)
+
+        cell!.layer.borderColor = UIColor.whiteColor().CGColor
+        cell!.layer.borderWidth = 1.0
     }
     
     
@@ -503,11 +528,11 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
         self.pageViewController.didMoveToParentViewController(self)
         
-        dispatch_async(dispatch_get_main_queue())
-        { [unowned self] in
-            
-            print("here transfer to main Thread")
-        }
+//        dispatch_async(dispatch_get_main_queue())
+//        { [unowned self] in
+//            
+//            print("here transfer to main Thread")
+//        }
 
     }
     

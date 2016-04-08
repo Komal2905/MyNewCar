@@ -22,8 +22,8 @@ class ImageSlideViewController: UIViewController {
         
         let url = NSURL(string: imageFile)
             
-        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0))
-        {
+       // dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0))
+       // {
                 
             print(url)
             let data = NSData(contentsOfURL: url!) //make sure your image in this url does exist, otherwise unwrap in a if let check
@@ -32,10 +32,10 @@ class ImageSlideViewController: UIViewController {
                 
             self.slidingImage.image = UIImage(data: data!)
                 
-            dispatch_async(dispatch_get_main_queue(), {
-                });
-            }
-            //self.slidingImage.image = UIImage(named: imageFile)
+           // dispatch_async(dispatch_get_main_queue(), {
+            //    });
+           // }
+    
             
         }
 
